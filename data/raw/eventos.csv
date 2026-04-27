@@ -1,0 +1,13 @@
+id_ciudad,tipo,temperatura,humedad,viento_kmh,fecha,estado
+1,Lluvia,18,80,12,2024-05-01,activo
+1, tormenta ,17,85,20,2024-05-02,activo
+2,calor,30,40,8,2024-05-01,inactivo
+2,lluvia,,70,10,2024-05-03,activo
+3,LLUVIA,25,90,15,2024-05-02,activo
+3,calor,28,50,5,2024-05-04,activo
+1,tormenta,NaN,88,18,2024-05-05,inactivo
+2,  CALOR ,31,45,9,2024-05-06,activo
+3,,26,60,7,2024-05-07,activo
+2,lluvia,abc,75,11,2024-05-08,activo
+1,frio,15,65,6,2024-05-09,activo
+3,calor,100,30,4,2024-05-10,activo
