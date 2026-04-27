@@ -1,13 +1,10 @@
-def analyze_data(eventos, ciudades):
-    mapa_ciudades = {}
-
-    for c in ciudades:
-        mapa_ciudades[str(c["id"])] = c["ciudad"]
+def analyze_data(df_eventos, df_ciudades):
+    mapa_ciudades = dict(zip(df_ciudades["id"].astype(str), df_ciudades["ciudad"]))
 
     resumen = {}
 
-    for evento in eventos:
-        id_c = evento.get("id_ciudad")
+    for _, row in df_eventos.iterrows():
+        id_c = str(row["id_ciudad"])
 
         ciudad = mapa_ciudades.get(id_c)
 
