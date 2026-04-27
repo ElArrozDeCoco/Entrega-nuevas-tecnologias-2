@@ -1,0 +1,6 @@
+id,ciudad,pais,poblacion,altitud,region
+1,Bogota,Colombia,8000000,2640,Andina
+2, Medellin ,Colombia,2500000,1495,andina
+3,CALI,Colombia,2200000,1018,PACIFICA
+4,Barranquilla,Colombia,,18,Caribe
+5,Cartagena,Colombia,1000000,2,caribe
